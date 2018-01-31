@@ -1,5 +1,7 @@
 package com.spotifymemories;
 
+import com.spotifymemories.Utilities.Authorization;
+
 /**
  * Runs the package.
  */
@@ -17,7 +19,7 @@ public final class Driver {
      * @param args command-line arguments
      */
     public static void main(final String[] args) {
-        System.out.println("Hello World");
+        Authorization.authorize();
     }
 
 }
